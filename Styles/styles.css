@@ -275,7 +275,9 @@ p {
 
 
 .tools__text {
-    background-color: #A91079;
+    background-image: linear-gradient(to bottom, rgb(255 46 144) 0%, rgb(61 35 185) 100%);
+    font-family: sans-serif;
+    place-items: center;
     display: grid;
     grid-template-row: 1fr 2fr 4fr;
     padding: 24px;
@@ -449,22 +451,22 @@ footer {
 }
 
 .card__tools__contenedor {
-    background-color: #892CDC;
+    background-image: linear-gradient(to bottom, rgb(255 46 144) 0%, rgb(61 35 185) 100%);
     border-radius: 40px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     margin-left: 10%;
-    margin-right: 10%;
-    align-items: center;
+    margin-right: 05%;
     padding-top: 05%;
+    justify-items: fit;
 }
 
 
 
 .card__text {
     display: grid;
-    grid-template-columns: 80px 300px;
+    grid-template-columns: 80px auto;
     margin-left: 24px;
     column-gap: 0px;
 
