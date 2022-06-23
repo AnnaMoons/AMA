@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0px;
 }
@@ -5,6 +7,18 @@ body {
 /*** NAVEGACIÓN ***/
 
 .menu-bar {
+    background-color: #A91079;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu-bar-b {
     background-color: #A91079;
     display: flex;
     flex-direction: row-reverse;
