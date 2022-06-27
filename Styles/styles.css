@@ -6,6 +6,14 @@ body {
 
 /*** NAVEGACIÓN ***/
 
+.menu-bar-container {
+   background-color:  #A91079;
+   color: #FFEDED;
+   align-items: center;
+   justify-content: center;
+}
+
+
 .menu-bar {
     background-color: #A91079;
     display: flex;
@@ -19,19 +27,16 @@ body {
 }
 
 .menu-bar-b {
-    background-color: #A91079;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    font-family: 'Roboto', sans-serif;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: 10;
 }
 
-@media screen and (min-width: 768px) {
+
+
+@media screen and (min-width: 768px) 
+{
     .menu-bar {
         flex-direction: row;
         justify-content: space-evenly;
@@ -62,12 +67,14 @@ body {
 }
 
 .il__ul__menu {
+    list-style: none;
     border-bottom: 0.5px solid #FFEDED;
     padding: 5px;
 }
 
 @media screen and (min-width: 768px) {
     .il__ul__menu {
+        list-style: none;
         border: none;
     }
 }
@@ -83,15 +90,20 @@ body {
     background-color: #892CDC;
     height: 32px;
     margin-bottom: 24px;
+    list-style: none;
 }
 
 .breadcrumb__ul {
     background-color: #892CDC list-style: none;
     font-family: 'Roboto', sans-serif;
+    list-style: none;
 }
 
 @media screen and (min-width: 768px) {
-    .breadcrumb {}
+    .breadcrumb {
+
+        list-style: none;
+    }
 }
 
 /*** TEXTOS ***/
@@ -179,7 +191,7 @@ p {
 .blog__index__title {
     color: #A91079;
     font-size: 26px;
-    font-family: 'Roboto Serif, serif';
+    font-family: 'Roboto Serif', serif;
     font-weight: bold;
     text-align: center;
 }
@@ -191,6 +203,8 @@ p {
 
 .eventos__h2 {
     margin: 0px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif';
 
 }
 
@@ -446,10 +460,6 @@ footer {
         margin-left: 150px;
         margin-right: 60px;
     }
-
-    .hero__image_tools {}
-}
-
 
 .tools {
     display: grid;
