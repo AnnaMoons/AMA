@@ -14,7 +14,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <!-- Insertar CSS de forma externa -->
-  <link rel="stylesheet" type=text/css href="./Styles/styles.css">
+  <link rel="stylesheet" type=text/css href="./styles/css/styles.css">
   <!-- Ícono en el navegador -->
   <link rel="icon" href="./favicon.ico">
   <!-- Tipografías -->
@@ -27,191 +27,93 @@
 
 
 <body>
+<!-- NAVEGACIÓN -->
 
-  <!--Header-->
-  <header >
-    <!--Barra de navegación-->
-    <nav>
-      <div class="menu-bar">
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">AMA - Assertive Match</a>
 
-        <!--Logo-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="menu-logo" ID="logo-menu">
-          <h1 class="header__logo"><a href="./index.html">AMA - Assertive Match</a></h1>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./pages/herramientas.html">Herramientas</a>
+          </li>
 
-        <!--Menú options-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./pages/blog/" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Blog
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./pages/blog/amor-propio/blog-amor-propio.html">Amor propio</a></li>
+              <li><a class="dropdown-item" href="./pages/blog/relaciones/blog-relaciones.html">Relaciones</a></li>
+            </ul>
+          </li>
 
-        <div>
-          <ul class="ul__menu">
-            <li class="il__ul__menu"><a href="./pages/herramientas.html">Herramientas</a></li>
-            <li class="il__ul__menu"><a href="./pages/blog.html">Blog</a></li>
-            <li class="il__ul__menu"><a href="./pages/eventos.html">Eventos</a></li>
-            <li class="il__ul__menu"><a href="./pages/sobre_nosotros.html">Sobre nosotros</a></li>
-          </ul>
-        </div>
-
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/eventos.html">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/sobre-nosotros.html">Sobre nosotros</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </header>
-
-
-  <main class="main_grid">
-
-    <!--Comienza sections-->
-
-    <!--Banner-->
-    <section class="banner__home">
-      <div class="banner__text">
-        <h1>Club de lectura</h1>
-        <p>Leamos juntas 'Indomable', de Glennon Doyle.</p>
-        <p>Conoce la dinámica, fechas y horarios del club.</p>
-      </div>
-      <div= class="btn__container">
-        <a class="btn" href="./pages/club-de-lectura.html">Ver detalles</a>
-
-        </div>
-
-    </section>
-
-
-    <!--Paralax-->
+    </div>
+  </nav>
+          
+<!-- PARALLAX -->
     <div class="parallax"></div>
 
 
-    <section class="tools__home">
-      <div class="tools__text">
-        <h6 class="herramientas__category">RELACIONES</h6>
-        <h2 class="herramientas__h2">Ideas para enamorar</h2>
-        <p class="herramientas__text">Demuestra tu amor y nutre tu relación poniendo en práctica algunas de estas ideas
-          románticas. Mantén encendida la chispa para que tu relación sea más sana, feliz y duradera.</p>
-        <img src="" class="img.banner" />
-      </div>
+<!-- HERO CONTENT -->
 
-      <div class="tools__text">
-        <h6 class="herramientas__category">RELACIONES</h6>
-        <h2 class="herramientas__h2">Lenguajes del amor</h2>
-        <p class="herramientas__text">Responde este test y descubre cuál es el lenguaje del amor de tu pareja. Conocerás
-          su
-          manera de expresar el amor y cómo le gusta ser tratada en sus relaciones. Basado en el trabajo del Dr. Gary
-          Chapman, autor del libre The 5 Love Languages.</p>
-        <img src="" class="img.banner" />
-      </div>
-
-    </section>
-
-    <!--Paralax-->
-    <div class="parallax"></div>
-
-    <article>
-      <h1 class="blog__index__title">Blog</h1>
-
-      <div class="blog-index-grid">
-
-
-        <div class="blog__index__card">
-          <div class="blog__index__card__image">
-            <img src="./Assets/image.png" />
-          </div>
-
-          <div class="blog__index__card__text">
-            <h1 class="blog__index__card__title">Medusaceratops</h1>
-            <p>Huaxiagnathus Eustreptospondylus Beelemodon Hualianceratops Huayangosaurus.</p>
-            <a href="./pages/blog/blog-articulo-1.html">Leer más</a>
-          </div>
-        </div>
-
-        <div class="blog__index__card">
-          <div class="blog__index__card__image">
-            <img src="./Assets/image.png" />
-          </div>
-
-          <div class="blog__index__card__text">
-            <h1 class="blog__index__card__title">Medusaceratops</h1>
-            <p>Huaxiagnathus Eustreptospondylus Beelemodon Hualianceratops Huayangosaurus.</p>
-            <a href="./pages/blog/blog-articulo-1.html">Leer más</a>
-          </div>
-        </div>
-
-        <div class="blog__index__card">
-          <div class="blog__index__card__image">
-            <img src="./Assets/image.png" />
-          </div>
-          <div class="blog__index__card__text">
-            <h1 class="blog__index__card__title">Medusaceratops</h1>
-            <p>Huaxiagnathus Eustreptospondylus Beelemodon Hualianceratops Huayangosaurus.</p>
-            <a href="./pages/blog/blog-articulo-1.html">Leer más</a>
-          </div>
-        </div>
-
-      </div>
-    </article>
-
-    <!--Paralax-->
-    <div class="parallax"></div>
-
-    <div class="eventos__home">
-
-      <div class="eventos__card">
-        <img src="Assets/evento_img.png" class="eventos__image" />
-        <div>
-          <h6 class="eventos__category">RELACIONES</h6>
-          <h2 class="eventos__h2">Ideas para enamorar</h2>
-        </div>
-      </div>
-
-      <div class="eventos__card">
-        <img src="Assets/evento_img.png" class="eventos__image" />
-
-        <div>
-
-          <h6 class="eventos__category">RELACIONES</h6>
-          <h2 class="eventos__h2">Ideas para enamorar</h2>
-        </div>
-
-      </div>
-
-
-      <div class="eventos__card">
-        <img src="Assets/evento_img.png" class="eventos__image" />
-        <div>
-          <h6 class="eventos__category">RELACIONES</h6>
-          <h2 class="eventos__h2">Ideas para enamorar</h2>
-        </div>
-
-      </div>
+<section class="banner__home">
+  <div class="banner__text">
+    <h1>Club de lectura</h1>
+    <p>Leamos juntas 'Indomable', de Glennon Doyle.</p>
+    <p>Conoce la dinámica, fechas y horarios del club.</p>
+  </div>
+  <div= class="btn__container">
+    <a class="btn" href="./pages/club-de-lectura.html">Ver detalles</a>
 
     </div>
-    
-    <!--Paralax-->
-    <div class="parallax"></div>
+
+</section>
 
 
+<!-- PARALLAX -->
+<div class="parallax w-100"></div>
 
-    <footer>
-      <h1>¿Quieres ser parte?</h1>
-      <p>Comparte tus ideas, experiencias e historias con esta gran comunidad.</p>
-      <p>Si quieres escribir, ilustrar o ser parte, escríbenos a . </p>
+<!-- TOOLS HOME-->
+<section class="tools__home">
+  <div class="tools__text">
+    <h6 class="herramientas__category">RELACIONES</h6>
+    <h2 class="herramientas__h2">Ideas para enamorar</h2>
+    <p class="herramientas__text">Demuestra tu amor y nutre tu relación poniendo en práctica algunas de estas ideas
+      románticas. Mantén encendida la chispa para que tu relación sea más sana, feliz y duradera.</p>
+    <img src="" class="img.banner" />
+  </div>
 
-      <div class="tabla-redes">
-        <div></div>
-        <div class=¨link-redes¨><a href="https://www.linkedin.com//"> <img class="social-media-images"
-              src="./Assets/social_media/linkedin.png"></a></div>
-        <div class=¨link-redes¨><a href="https://www.instagram.com/"><img class="social-media-images"
-              src="./Assets/social_media/instagram.png" alt=""></a></div>
-        <div class=¨link-redes¨><a href="https://t.me/joinchat/3OP0EdAfHYEwYjgx"><img class="social-media-images"
-              src="./Assets/social_media/telegrama.png"></a></div>
-        <div class=¨link-redes¨><a href="https://www.youtube.com/"><img class="social-media-images"
-              src="./Assets/social_media/youtube.png"></a></div>
-        <div></div>
-      </div>
+  <div class="tools__text">
+    <h6 class="herramientas__category">RELACIONES</h6>
+    <h2 class="herramientas__h2">Lenguajes del amor</h2>
+    <p class="herramientas__text">Responde este test y descubre cuál es el lenguaje del amor de tu pareja. Conocerás
+      su
+      manera de expresar el amor y cómo le gusta ser tratada en sus relaciones. Basado en el trabajo del Dr. Gary
+      Chapman, autor del libre The 5 Love Languages.</p>
+    <img src="" class="img.banner" />
+  </div>
 
-      <div class="footer-rights">
-        <p>Conoce los términos y condiciones de este sitio.</p>
-        <p>ANNAMOONS - Copyright © 2022</p>
-      </div>
-    </footer>
-  </main>
+</section>
+
+<!-- PARALLAX -->
+<div class="parallax w-100"></div>
+
+
+ 
 
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

@@ -1,0 +1,20 @@
+/*** PARALAX EFECT ***/
+
+.parallax {
+    display: grid;
+    grid-template-columns: 12fr;
+    background-image: url(./../../assets/parallax-image.jpg);
+    height: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /***
+    margin-bottom: 50px;
+    margin-top: 20px;
+***/
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+}
+}

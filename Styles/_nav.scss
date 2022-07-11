@@ -1,0 +1,42 @@
+.navbar {
+    background-color: rgb(153, 17, 142);
+   
+ .navbar-nav {
+    margin-left: auto;
+ }
+
+    .container-fluid {
+        @media screen and (max-width: 768px) {
+            flex-direction: row-reverse;
+        }
+    }
+
+    .navbar-brand {
+        color: rgb(255, 237, 237);
+
+    }
+
+    .nav-link {
+        color: rgb(255, 237, 237);
+    }
+
+    .nav-link.active{
+        color: rgb(245, 113, 234);
+    }
+
+    .dropdown-menu {
+        background-color: rgb(245, 113, 234);
+       
+    }
+
+
+}
+
+.dropdown-item {
+    color: rgb(255, 237, 237);
+}
+
+.dropdown-item:hover {
+    color: rgb(15, 35, 55);
+    background-color:  rgb(255, 237, 237);
+}

@@ -1,0 +1,12 @@
+.banner__home {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    grid-column-gap: 20px;
+}
+
+.banner__text {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 48px;
+}
