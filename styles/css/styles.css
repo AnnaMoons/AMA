@@ -48,7 +48,7 @@
 
 .banner__home {
   display: grid;
-  background-image: url(./../../assets/pexels-miodrag-kitanović-4286932.jpg);
+  background-image: url(./../../assets/banner-background-image.jpg);
   background-size: 100% auto;
   grid-template-columns: auto;
   justify-content: center;
