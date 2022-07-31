@@ -1,6 +1,10 @@
-@import "./nav";
-@import "./hero";
-@import "./parallax";
-@import "./tools-home";
-@import "./text-styles";
-@import "./btn"
+@import "./scss/variables";
+@import "./scss/reset";
+@import "./scss/nav";
+@import "./scss/hero";
+@import "./scss/parallax";
+@import "./scss/tools-home";
+@import "./scss/text-styles";
+@import "./scss/btn";
+@import "./scss/footer";
+@import "./scss/media-queries.scss";
