@@ -1,0 +1,106 @@
+/*** TEXTOS ***/
+
+/*** font-family: 'DM Sans', sans-serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'DM Serif Text', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Serif', serif;
+font-family: 'Roboto Slab', serif; ***/
+
+h1 {
+    color: $magent;
+    font-size: 26px;
+    font-family: $titulos;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: $dark;
+    font-size: 16px;
+    font-family: $parrafos;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+a{
+    color: $pinkCake;
+    font-family: $parrafos;
+}
+.descargable__text {
+    font-size: 16px;
+    font-family: $parrafos;
+    text-align: justify;
+
+}
+
+.h1-tools {
+    color: rgb $pinkCake;
+    font-size: 26px;
+    font-family: $titulos;
+    font-weight: bold;
+    font-weight: 700;
+}
+
+.herramientas__h2 {
+    color: $pinkCake;
+    font-size: 22px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 10px;
+}
+
+.descargable__h2 {
+    color: $pinkCake;
+    font-size: large;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 10px;
+}
+
+.herramientas__category {
+    color: $pinkCake;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+}
+
+.herramientas__text {
+    color: $pinkCake;
+    font-size: 16px;
+    font-family: $parrafos;
+    margin: 0px;
+}
+
+.herramientas__text__2 {
+    color: $pinkCake;
+    font-size: 16px;
+    font-family: $parrafos;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.blog__index__title {
+    color: $purple;
+    font-size: 26px;
+    font-family: $titulos;
+    font-weight: bold;
+    text-align: center;
+}
+
+.eventos__category {
+    color: $violet;
+    margin: 0px;
+}
+
+.eventos__h2 {
+    margin: 0px;
+    font-size: 18px;
+    font-family: $titulos;
+}
