@@ -1,5 +1,6 @@
+@charset "UTF-8";
 /*** COLORES ***/
-/*** FUENTES ***/
+/*** TIPOGRAFÍA ***/
 .body {
   margin: 0;
   padding: 0;
@@ -158,6 +159,18 @@ a {
   font-weight: 700;
 }
 
+h2 {
+  color: rgb(160, 12, 86);
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.form-label {
+  color: rgb(80, 2, 73);
+  font-family: "Roboto", sans-serif;
+}
+
 .herramientas__h2 {
   color: rgb(255, 237, 237);
   font-size: 22px;
@@ -276,6 +289,42 @@ footer .tabla-redes .social-media-images {
 footer .tabla-redes .social-media-images:hover {
   height: 55px;
   width: 55px;
+}
+
+.descriptionSobreNosotros {
+  display: grid;
+  grid-template-rows: 1fr;
+  margin: 5% 20%;
+}
+
+.formContainer {
+  margin: 0;
+}
+
+.formSobreNosotros {
+  display: grid;
+  grid-template-rows: 1fr;
+  margin: 5% 20% 0% 10%;
+  background-color: rgba(255, 237, 237, 0.2);
+  border-radius: 40px;
+  grid-template-columns: auto;
+  justify-content: center;
+  grid-column-gap: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.form-control {
+  border-color: rgba(102, 2, 252, 0.2);
+  color: rgb(118, 114, 114);
+  font-style: italic;
+  font-weight: 200;
+  font-family: "Roboto", sans-serif;
+}
+
+.CamposTexto {
+  margin: 0% 10%;
+  margin-bottom: 5%;
 }
 
 @media screen and (max-width: 768px) {

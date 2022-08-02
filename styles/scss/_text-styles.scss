@@ -48,10 +48,24 @@ a{
     font-weight: 700;
 }
 
+h2 {
+    color: $wine;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.form-label {
+    color: $dark;
+    font-family: $parrafos;
+}
+
+
 .herramientas__h2 {
     color: $pinkCake;
     font-size: 22px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: $titulosSecundarios;
     margin-top: 10px;
 }
 
@@ -66,7 +80,7 @@ a{
     color: $pinkCake;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: $titulosSecundarios;
     margin: 0px;
 }
 
