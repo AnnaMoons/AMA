@@ -297,21 +297,14 @@ footer .tabla-redes .social-media-images:hover {
   margin: 5% 20%;
 }
 
-.formContainer {
-  margin: 0;
-}
-
 .formSobreNosotros {
   display: grid;
   grid-template-rows: 1fr;
-  margin: 5% 20% 0% 10%;
   background-color: rgba(255, 237, 237, 0.2);
   border-radius: 40px;
   grid-template-columns: auto;
   justify-content: center;
   grid-column-gap: 20px;
-  max-width: 100%;
-  height: auto;
 }
 
 .form-control {

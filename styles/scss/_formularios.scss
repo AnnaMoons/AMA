@@ -4,22 +4,15 @@
     margin: 05% 20%;
 }
 
-.formContainer {
-
-    margin: 0;
-}
 
 .formSobreNosotros {
     display: grid;
     grid-template-rows: 1fr;
-    margin: 05% 20% 0% 10%;
     background-color: $transparent;
     border-radius: 40px;
     grid-template-columns: auto;
     justify-content: center;
     grid-column-gap: 20px;
-    max-width: 100%;
-    height: auto;
 }
 
 .form-control {
@@ -32,7 +25,6 @@
 
 
 .CamposTexto {
-    
     margin: 0% 10%;
     margin-bottom: 05%;
 }
