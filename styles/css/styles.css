@@ -294,17 +294,27 @@ footer .tabla-redes .social-media-images:hover {
 .descriptionSobreNosotros {
   display: grid;
   grid-template-rows: 1fr;
+  justify-content: center;
   margin: 5% 20%;
+}
+
+.formContainer {
+  display: grid;
+  grid-template-rows: 1f;
+  justify-content: center;
+  align-content: center;
 }
 
 .formSobreNosotros {
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-content: center;
   background-color: rgba(255, 237, 237, 0.2);
   border-radius: 40px;
   grid-template-columns: auto;
   justify-content: center;
-  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin: 5% 20%;
 }
 
 .form-control {
@@ -316,8 +326,7 @@ footer .tabla-redes .social-media-images:hover {
 }
 
 .CamposTexto {
-  margin: 0% 10%;
-  margin-bottom: 5%;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
