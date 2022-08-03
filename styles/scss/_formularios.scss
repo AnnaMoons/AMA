@@ -1,39 +1,43 @@
-.descriptionSobreNosotros {
-    display: grid;
-    grid-template-rows: 1fr;
-    justify-content: center;
-    margin: 05% 20%;
-}
-
-.formContainer {
-    display: grid;
-    grid-template-rows: 1f;
-    justify-content: center;
-    align-content: center;
-}
-
-
 .formSobreNosotros {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    place-content: center;
     background-color: $transparent;
     border-radius: 40px;
     grid-template-columns: auto;
     justify-content: center;
     grid-row-gap: 20px;
     margin: 05% 20%;
-}
 
-.form-control {
-    border-color: $violet;
-    color: $grey;
-    font-style: italic;
-    font-weight: 200;
-    font-family: $parrafos;
-}
+    .formContainer {
+        display: grid;
+        grid-template-rows: 1f;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .descriptionSobreNosotros {
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-content: center;
+    }
+
+    .CamposTexto {
+        place-content: center;
+        justify-content: center;
 
 
-.CamposTexto {
-    justify-content: center;
+        .form-control {
+            border-color: $violet;
+            color: $grey;
+            font-style: italic;
+            font-weight: 200;
+            font-family: $parrafos;
+        }
+    }
+
+
+    .form-check-label {
+
+    }
+
 }

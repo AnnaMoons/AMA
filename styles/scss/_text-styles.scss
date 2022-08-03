@@ -25,8 +25,7 @@ p {
     font-size: 16px;
     font-family: $parrafos;
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: -1rem;
+    margin-bottom: 0.5%;
 }
 
 a{
@@ -46,6 +45,7 @@ a{
     font-family: $titulos;
     font-weight: bold;
     font-weight: 700;
+    margin: 0;
 }
 
 h2 {
