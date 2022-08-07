@@ -1,0 +1,21 @@
+/* BREADCRUMBS */
+
+.breadcrumb {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #892CDC;
+    height: 32px;
+    margin-bottom: 24px;
+
+    .breadcrumb__ul {
+        background-color: #892CDC; 
+        list-style: none;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .breadcrumb {}
+}
