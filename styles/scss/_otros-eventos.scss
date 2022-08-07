@@ -1,0 +1,25 @@
+/*** EVENTOS HOME***/
+
+.eventos__home {
+    display: grid;
+    grid-template-row: 1fr 1fr 1fr;
+    row-gap: 20px;
+    justify-content: center;
+    align-content: center;
+
+    .eventos__card {
+        display: grid;
+        grid-template-columns: 70px 1fr;
+        column-gap: 8px;
+        align-items: center;
+
+
+        .eventos__image {
+            width: 70px;
+            height: 70px;
+        }
+
+    }
+
+
+}

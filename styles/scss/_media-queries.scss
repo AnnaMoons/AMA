@@ -1,3 +1,30 @@
-@media screen and (max-width: 768px) {
-    .container-fluid{flex-direction: row-reverse;} 
+@media screen and (min-width: 768px) {
+
+
+    .blog-index-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    /*** EVENTOS HOME***/
+
+    .eventos__home {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        columns-gap: 20px;
+        justify-items: center;
+    }
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .container-fluid {
+        flex-direction: row-reverse;
+       }
+    
+}
+
+
