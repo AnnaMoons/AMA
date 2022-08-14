@@ -68,6 +68,13 @@
   padding: 50px;
 }
 
+.hero__content {
+  display: grid;
+}
+.hero__content .heroTitle {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 .hero__content .hero__image_tools {
   display: grid;
   grid-template-columns: 1fr;
@@ -78,7 +85,6 @@
 }
 .hero__content .hero__text {
   display: grid;
-  grid-template-columns: 1fr;
   align-content: center;
   padding-right: 5%;
   padding-left: 5%;
@@ -159,8 +165,8 @@ p {
 }
 
 a {
-  color: rgb(255, 237, 237);
-  font-family: "Roboto", sans-serif;
+  color: rgb(80, 2, 73);
+  text-align: center;
 }
 
 .descargable__text {
@@ -344,15 +350,11 @@ footer .tabla-redes .social-media-images:hover {
 }
 /* BREADCRUMBS */
 .breadcrumb {
-  display: flex;
-  flex-direction: row-reverse;
-  background-color: #892CDC;
-  height: 32px;
-  margin-bottom: 24px;
+  padding-left: 10px;
+  background-color: rgb(245, 113, 234);
 }
-.breadcrumb .breadcrumb__ul {
-  background-color: #892CDC;
-  list-style: none;
+.breadcrumb .breadcrumb-item {
+  color: rgb(255, 237, 237);
   font-family: "Roboto", sans-serif;
 }
 
@@ -362,8 +364,26 @@ article .blog-index-grid {
   grid-template-rows: 1fr;
   justify-items: center;
   justify-content: center;
+  align-items: center;
 }
-article .blog-index-grid .blog__index__card {
+article .blog-index-grid .blog__index__card__image {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  width: fit-content;
+  border-radius: 8px;
+  margin: 0px;
+}
+article .blog-index-grid .blog__index__card__image .img {
+  border-radius: 16px;
+}
+article .blog-index-grid .blog__index__card__text a {
+  color: rgb(80, 2, 73);
+  justify-items: center;
+  justify-content: center;
+  text-justify: center;
+}
+article .blog__index__card {
   background-color: rgb(255, 237, 237);
   border-radius: 8px;
   padding: 16px;
@@ -415,9 +435,9 @@ article .blog-index-grid .blog__index__card {
 /*** HERO CONTENT ***/
 @media screen and (min-width: 1110px) {
   .hero__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
     margin-left: 20%;
     margin-right: 20%;
   }

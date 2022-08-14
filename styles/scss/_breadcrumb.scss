@@ -1,21 +1,12 @@
 /* BREADCRUMBS */
 
 .breadcrumb {
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: #892CDC;
-    height: 32px;
-    margin-bottom: 24px;
+    padding-left: 10px;
+    background-color: $pink;
 
-    .breadcrumb__ul {
-        background-color: #892CDC; 
-        list-style: none;
+    .breadcrumb-item {
+        color: $pinkCake;
         font-family: 'Roboto', sans-serif;
+
     }
-}
-
-
-
-@media screen and (min-width: 768px) {
-    .breadcrumb {}
 }

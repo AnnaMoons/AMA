@@ -7,23 +7,50 @@ article {
         grid-template-rows: 1fr;
         justify-items: center;
         justify-content: center;
+        align-items: center;
 
-
-        .blog__index__card {
-            background-color: $pinkCake;
+        .blog__index__card__image {
+            display: flex;
+            flex-direction: row;
+            height: 150px;
+            width: fit-content;
             border-radius: 8px;
-            padding: 16px;
-            padding-bottom: 24px;
-            margin: 8px 8px;
-            width: 300px;
-            height: fit-content;
-            display: grid;
-            grid-template-rows: 1fr 1fr;
-            justify-items: center;
-            align-items: center;
-            justify-content: center;
+            margin: 0px;
 
-
+            .img {
+                border-radius: 16px;
+            }
         }
+
+        .blog__index__card__text {
+
+            a {
+                color: $dark;
+                justify-items: center;
+                justify-content: center;
+                text-justify: center
+            }
+        }
+
+    }
+
+
+
+
+    .blog__index__card {
+        background-color: $pinkCake;
+        border-radius: 8px;
+        padding: 16px;
+        padding-bottom: 24px;
+        margin: 8px 8px;
+        width: 300px;
+        height: fit-content;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+
+
     }
 }

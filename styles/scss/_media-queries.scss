@@ -25,9 +25,9 @@
 @media screen and (min-width: 1110px) {
 
     .hero__content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 20px;
+        display: flex;
+flex-direction: row;
+flex-direction: row-reverse;        
         margin-left: 20%;
         margin-right: 20%;
 
@@ -38,7 +38,8 @@
             padding-left: 15%;
         }
 
-    }
+
+}
 }
 
 

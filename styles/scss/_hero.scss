@@ -1,5 +1,12 @@
 .hero__content {
 
+    display: grid;
+    
+    .heroTitle{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
 .hero__image_tools {
     display: grid;
     grid-template-columns: 1fr;
@@ -11,7 +18,6 @@
 
 .hero__text {
     display: grid;
-    grid-template-columns: 1fr;
     align-content: center;
     padding-right: 5%;
     padding-left: 5%;
